@@ -1,0 +1,51 @@
+Body{
+/* 1. Font Color */
+    .text-color {
+    color: #747979; 
+    }
+
+/* 2. Font Family */
+    .text-family {
+    font-family: 'Arial', sans-serif; 
+
+/* 3. Font Boldness */
+.text-bold {
+    font-weight: bold; 
+    }
+
+/* 4. Font Style */
+    .text-italic {
+    font-style: italic; 
+    }
+
+    div {
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px; /* Adds space between the divs */
+    }
+
+/* Div 1: Styled Block */
+    .div1 {
+    background-color: #f6f8fa; 
+    width: 100%; 
+    text-align: center;
+    }
+
+/* Div 2: Styled Block */
+    .div2 {
+    background-color: #f7f5f5; 
+    width: 45%; 
+    margin: 0 auto; 
+    text-align: center;
+    }
+
+/* Div 3: Styled Block */
+    .div3 {
+    background-color: #e6ece8; 
+    width: 30%; 
+    float: left; 
+    margin-right: 20px; 
+    text-align: center;
+    }
+}
